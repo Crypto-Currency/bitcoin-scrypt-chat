@@ -125,6 +125,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/script.h \
     src/init.h \
 	src/qt/skinspage.h \
+	src/qt/chatterboxpage.h \
     src/mruset.h \
     src/json/json_spirit_writer_template.h \
     src/json/json_spirit_writer.h \
@@ -189,6 +190,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/main.cpp \
     src/init.cpp \
 	src/qt/skinspage.cpp \
+	src/qt/chatterboxpage.cpp \
     src/net.cpp \
     src/checkpoints.cpp \
     src/addrman.cpp \
@@ -244,6 +246,7 @@ FORMS += \
     src/qt/forms/coincontroldialog.ui \
     src/qt/forms/addressbookpage.ui \
     src/qt/forms/skinspage.ui \
+    src/qt/forms/chatterboxpage.ui \
     src/qt/forms/signverifymessagedialog.ui \
     src/qt/forms/aboutdialog.ui \
     src/qt/forms/editaddressdialog.ui \
